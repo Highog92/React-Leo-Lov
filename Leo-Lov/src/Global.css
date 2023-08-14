@@ -1,4 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jura&display=swap');
+
 body {
   margin: 0;
   font-family: Inter, Jura;
 }
+
+:root {
+  font-family: Inter, Jura;
+  --hvid: #ffffff;
+  --mørkblå: #2c3b6f;
+  --blå: #002bc2;
+  --sort: #000000;
+}
+

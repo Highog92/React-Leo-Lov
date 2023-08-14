@@ -3,8 +3,8 @@ import style from './WhatWeDo.module.scss/'
 export function WhatWeDo(props) {
 
     return (
-        <section className='WhatWeDo'>
-            <div>
+        <section className={style.WhatWeDo}>
+            <div className={style.WhatWeDoGrid}>
                 <h2>Familieret</h2>
                 <p>Familieret er en ret alle har.
                     Har du en familie har du
@@ -14,7 +14,7 @@ export function WhatWeDo(props) {
                     vi desværre ikke hjælpe
                     dig.</p>
             </div>
-            <div>
+            <div className={style.WhatWeDoGrid}>
                 <h2>Ejendomret</h2>
                 <p>Har du købt et hus og
                     fortrudt eller er du blevet
@@ -25,7 +25,7 @@ export function WhatWeDo(props) {
                     vedkommende der solgte
                     dig det.</p>
             </div>
-            <div>
+            <div className={style.WhatWeDoGrid}>
                 <h2>Konkurs</h2>
                 <p>Er du gået konkurs ville vi
                     rigtig gerne hjælpe, men
@@ -34,7 +34,7 @@ export function WhatWeDo(props) {
                     biler her så har du ingen
                     penge får du ingen hjælp</p>
             </div>
-            <div>
+            <div className={style.WhatWeDoGrid}>
                 <h2>Selskabsret</h2>
                 <p>Selskabsret. Ved du heller
                     aldrig hvilken ret du skal

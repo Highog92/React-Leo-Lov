@@ -1,4 +1,26 @@
-.WhatWeDo{
+.WhatWeDo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.WhatWeDoGrid {
+    border: 5px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 3rem
+}
+
+h2 {
+    color: var(--blå);
+    padding-bottom: 6rem;
+    text-align: center;
+    font-size: 3vw;
+    font-family: Jura;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: bold;
 }
