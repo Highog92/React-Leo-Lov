@@ -1,14 +1,12 @@
-import { NavBar } from './Components/NavBar/Navbar'
-import './App.css'
-
+import './Global.css'
+import { NavBar } from './Components/NavBar/NavBar'
+import { WhatWeDo } from './Components/What we do/WhatWeDo'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
           <NavBar />
-
-
+          <WhatWeDo/>
     </>
   )
 }

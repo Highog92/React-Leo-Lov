@@ -1,17 +1,28 @@
 nav {
-    display: block;
-    background-color: #262626;
+    font-family: Jura;
+    display: flex;
+    background-color: var(--hvid);
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    justify-content: end;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: start;
 }
 
 li {
     margin: 1rem;
-    color: #ffffff;
+    color: var(--blå);
+}
+
+span {
+    color: var(--blå);
+}
+
+p {
+    font-size: 2rem;
+    margin-right: 20px;
 }
